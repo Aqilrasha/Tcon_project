@@ -59,10 +59,10 @@
                             <a href="{{ route('home') }}" class="nav-link active-tcon" aria-current="page">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a href="konser.html" class="nav-link text-secondary fw-medium">Konser</a>
+                            <a href="{{ route('konser') }}" class="nav-link text-secondary fw-medium">Konser</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="artis.html" class="nav-link text-secondary fw-medium">Artis</a>
+                         <li class="nav-item">
+                       <a href="artis.html" class="nav-link text-secondary fw-medium">Artis</a>
                         </li>
                         <li class="nav-item">
                             <a href="riwayat_pembayaran.html" class="nav-link text-secondary fw-medium">Pesanan</a>
@@ -97,7 +97,10 @@
             <div class="position-relative z-1 p-4 p-md-5 text-center text-dark">
                 <h1 class="display-5 fw-bolder mb-3 lh-sm">Temukan & Beli Tiket Konser Favorit Anda</h1>
                 <p class="fs-5 text-secondary mb-4">Nikmati pengalaman tak terlupakan dengan musik live dari artis kesayangan Anda.</p>
-                <a href="konser.html" class="btn btn-primary btn-lg fw-bold rounded-pill shadow-lg">Lihat Konser Mendatang</a>
+               <a href="{{ route('konser') }}" class="btn btn-primary btn-lg fw-bold rounded-pill shadow-lg">
+    Lihat Konser Mendatang
+</a>
+
             </div>
         </section>
 
