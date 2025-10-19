@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController; // Pastikan controller ini di-import
 use App\Http\Controllers\KonserController;
+use App\Http\Controllers\DetailKonserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/konser', [KonserController::class, 'index'])->name('konser');
+Route::get('/detailKonser', [DetailKonserController::class, 'show'])->name('detail.konser');
