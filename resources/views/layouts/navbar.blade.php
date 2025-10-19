@@ -4,13 +4,13 @@
         <a href="{{ url('/') }}" class="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-indigo-600">Tcon</a>
         <div class="space-x-4 md:space-x-6 flex items-center">
             <a href="{{ url('/') }}" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Beranda</a>
-            <a href="{{ route('konser') }}" class="text-base md:text-lg text-indigo-600 hover:text-indigo-800 font-bold transition-colors border-b-2 border-indigo-600 pb-1">Konser</a>
-            <a href="#" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Artis</a>
+            <a href="{{ route('konser') }}" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Konser</a>
+            <a href="{{ route('artis.list') }}" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Artis</a>
             <a href="#" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Pesanan</a>
             <a href="#" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Hubungi Kami</a>
             <a href="#" class="text-base md:text-lg text-gray-600 hover:text-gray-900 font-medium transition-colors">Moment</a>
         </div>
-        <a href="#" class="text-indigo-600 hover:text-indigo-800 transition-colors">
+        <a href="{{ route('profile.show') }}" class="text-indigo-600 hover:text-indigo-800 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-9 md:w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M5.121 17.804A9.972 9.972 0 0112 15c2.47 0 4.73.81 6.518 2.155M15 
